@@ -4,7 +4,7 @@ local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 
 -- 🔹 Chỉ cho phép chạy trong game "Steal a Brainrot"
-if game.PlaceId ~= 1234567890 then
+if game.PlaceId ~= 109983668079237 then
 	player:Kick("❌ This script only works in Steal a Brainrot!")
 	return
 end
